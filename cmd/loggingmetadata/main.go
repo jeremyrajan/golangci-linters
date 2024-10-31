@@ -14,3 +14,5 @@ func (*analyzerPlugin) GetAnalyzers() []*analysis.Analyzer {
 }
 
 var AnalyzerPlugin analyzerPlugin
+
+func main() {} // needed for building plugin
